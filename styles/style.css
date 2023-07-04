@@ -1,0 +1,429 @@
+/*connections fonts used*/
+@font-face {
+    font-family: 'kenya';
+    src: url('fonts/Kenia-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Istok Web';
+    src: url('fonts/Istok\ Web.ttf');
+}
+
+@font-face {
+    font-family: 'Karla';
+    src: url('fonts/Karla-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    max-width: 100%
+}
+/* @media (max-width:1200px) {
+    .page {
+        max-width: 1200px;
+    }
+} */
+nav {
+    position: relative;
+    color: #FFFFFF;
+  }
+  
+  .navigation-page1-text {
+    position: absolute;
+    top: 50%;
+    /* transform: translateY(-50%); */
+    margin-right: 10px;
+    padding: 10vw;
+  }
+/*first page - main*/
+#first {
+    background-size: 100%;
+    width: 100%;
+    height: 100vh;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#back {
+    width: 100%;
+    height: 1024px;
+
+}
+#logo-png {
+    position: absolute;
+    width: 53px;
+    height: 80px;
+    left: 136px;
+    top: 54px;
+}
+
+/* .navigation-page1-text {
+    position: absolute;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    height: 26px;
+    top: 74px;
+} */
+
+#home-navigation-page1 {
+    width: 53px;
+    left: 365px;
+}
+
+#music-navigation-page1 {
+    width: 56px;
+    left: 518px;
+}
+
+#about-navigation-page1 {
+    width: 61px;
+    left: 674px;
+}
+
+#store-navigation-page1 {
+    width: 59px;
+    left: 835px;
+}
+
+#text-logo-page1 {
+    position: absolute;
+    width: 412px;
+    height: 264px;
+    left: 115px;
+    top: 291px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15vw;
+    line-height: 17vw;
+    font-family: 'kenya';
+}
+
+#phone {
+    position: absolute;
+    width: 500px;
+    height: 888.01px;
+    left: 865px;
+    top: 127px;
+}
+
+#sign {
+    position: absolute;
+    width: 290px;
+    height: 63px;
+    left: 122px;
+    top: 730px;
+    font-family: 'Istok Web';
+    font-size: 20px;
+    flex-wrap: wrap;
+}
+
+#earphones {
+    position: absolute;
+    width: 760px;
+    height: 570px;
+    left: 251.18px;
+    top: 520.12px;
+    border-radius: 57px;
+    transform: rotate(-30deg);
+}
+
+#kabel {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 885px;
+    top: 862px;
+}
+
+/*second page - plate photo and call to action*/
+#second-page {
+    position: absolute;
+    width: 100%;
+    height: 1024px;
+    left: 0px;
+    top: 1024px;
+    background: #D53005;
+    background-size: 100%;
+    box-sizing: border-box;
+}
+
+#plate {
+    position: absolute;
+    width: 1000px;
+    height: 666.5px;
+    left: 512px;
+    top: 179px;
+}
+
+#music-page2 {
+    position: absolute;
+    width: 84px;
+    height: 35px;
+    left: 122px;
+    top: 83px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+}
+
+.page2-buttons {
+    background: radial-gradient(98.43% 2084.95% at 1.57% 7.83%, #B13E18 0%, #F3501A 100%);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5), -4px -4px 30px rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    box-sizing: border-box;
+}
+
+#button1-page2 {
+    position: absolute;
+    width: 382px;
+    height: 83px;
+    left: 122px;
+    top: 385px;
+}
+
+#button2-page2 {
+    position: absolute;
+    width: 382px;
+    height: 83px;
+    left: 122px;
+    top: 556px;
+}
+
+/*third page - a couple of text info*/
+#third {
+    position: absolute;
+    width: 100%;
+    height: 1024px;
+    left: 0px;
+    top: 2048px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 6.04%);
+}
+
+.page3-text {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#about-page3 {
+    position: absolute;
+    width: 81px;
+    height: 35px;
+    left: 122px;
+    top: 83px;
+}
+
+#content-page3 {
+    position: absolute;
+    width: 969px;
+    height: 72px;
+    left: 275px;
+    top: 476px;
+}
+
+/*forth page - application download buttons*/
+#forth {
+    position: absolute;
+    width: 100%;
+    height: 1024px;
+    left: 0px;
+    top: 3072px;
+    background: #D53005;
+}
+
+#store-page4 {
+    position: absolute;
+    width: 73px;
+    height: 35px;
+    left: 122px;
+    top: 83px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+
+#macbook {
+    position: absolute;
+    width: 1168.32px;
+    height: 685px;
+    left: 335px;
+    top: 169px;
+}
+
+.buttons-page4 {
+    position: absolute;
+    width: 240px;
+    height: 60px;
+    left: 110px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25), -4px -4px 4px rgba(255, 255, 255, 0.1);
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+#download-Windows {
+    top: 254px;
+    background: rgba(2, 2, 2, 0.9);
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#download-MacOS {
+    top: 362px;
+    padding-left: 35px;
+    padding-right: 35px;
+    background: #E3E3E3;
+    border: 1px solid rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+    color: #000000;
+}
+
+#help-text-1 {
+    position: absolute;
+    width: 431px;
+    height: 28px;
+    left: 25px;
+    top: 557px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+#help-text-2 {
+    position: absolute;
+    width: 431px;
+    height: 110px;
+    left: 19px;
+    top: 602px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/*footer with navigation and company info*/
+footer {
+    position: absolute;
+    width: 100%;
+    height: 536px;
+    left: 0px;
+    top: 4096px;
+    background: linear-gradient(180deg, #D53005 0%, #000000 4.01%);
+}
+
+.footer-text-upper-navigation {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: -100;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#store-navigation {
+    position: absolute;
+    width: 200px;
+    height: 148px;
+    left: 452px;
+    top: 120px;
+}
+
+#values-navigation {
+    position: absolute;
+    width: 210px;
+    height: 148px;
+    left: 779px;
+    top: 120px;
+}
+
+#account-navigation {
+    position: absolute;
+    width: 275px;
+    height: 108px;
+    left: 1122px;
+    top: 120px;
+}
+
+#text-logo-footer {
+    position: absolute;
+    width: 138px;
+    height: 100px;
+    left: 110px;
+    top: 344px;
+    font-family: 'kenya';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.footer-text-lower-rights {
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    position: absolute;
+    height: 18px;
+    top: 444px;
+}
+
+#MPlayer-Inc {
+    width: 346px;
+    left: 106px;
+}
+
+#conditions {
+    width: 197px;
+    left: 551px;
+}
+
+#selling-and-return {
+    width: 154px;
+    left: 847px;
+}
+
+#legal-info {
+    width: 219px;
+    left: 1100px;
+}
